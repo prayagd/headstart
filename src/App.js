@@ -6,7 +6,6 @@ import Coding from './Components/Coding';
 import Writing from './Components/Writing'
 import Crypto from './Components/Crypto'
 import Marketing from './Components/Marketing'
-import Health from './Components/Health'
 
 
 
@@ -30,7 +29,6 @@ class App extends React.Component {
             <Route path = "/Writing" component = {Writing}/>
             <Route path = "/Marketing" component = {Marketing}/>
             <Route path = "/Crypto" component = {Crypto}/>
-            <Route path = "/Health" component = {Health}/>
           </Switch>
         </div>
         

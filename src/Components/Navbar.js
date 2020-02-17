@@ -11,8 +11,7 @@ const Navbar = (props) => {
                 <li><NavLink to = "/Coding">Coding</NavLink></li>
                 <li><NavLink to = "/Writing">Writing</NavLink></li>
                 <li><NavLink to = "/Marketing">Digital Marketing</NavLink></li>
-                <li><NavLink to = "/Health">Health</NavLink></li>
-                <li><NavLink to = "/Crypto">Digital Currency</NavLink></li>
+                <li><NavLink to = "/Crypto">Blockchain</NavLink></li>
             </ul>
         </nav>
     )
