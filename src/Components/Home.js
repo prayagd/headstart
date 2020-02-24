@@ -1,9 +1,14 @@
 import React from 'react';
 
 
+
 const Home = () => {
     return (
-        <h1>Start upskilling now</h1>
+        <div className = "home">
+            <h2>Start upskilling now</h2>
+        </div>
+        
+
     )
 }
 
