@@ -49,3 +49,34 @@ a:hover{
   font-size: 1.2em;
   margin-top: 5em;
 }
+
+#skills{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
+}
+
+ol{
+  list-style: none;
+}
+
+ol li{
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+
+.titles{
+  font-size: 1.5em;
+  border-bottom: 2px solid grey;
+  color: grey;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.skill-title{
+  text-align: center;
+  font-size: 2.5em;
+}
+
+
