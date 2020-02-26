@@ -16,24 +16,23 @@ class App extends React.Component {
   }
   render(){
     return (
-      
-        
         <div>
-          
           <BrowserRouter>
-          <h1>Headstart</h1>
+          <a href = "/"><h1>Headstart</h1></a>
             <Navbar/>
             <Switch>
-              
               <Route exact path = "/" component = {Home}/>
               <Route path = "/Coding" component = {Coding}/>
               <Route path = "/Writing" component = {Writing}/>
               <Route path = "/Marketing" component = {Marketing}/>
               <Route path = "/Crypto" component = {Crypto}/>
             </Switch>
+            <footer>
+              <p>Prayag Desale @ 2020</p>
+              <p>Made with React</p>
+            </footer>
           </BrowserRouter>
         </div>
-        
     )
   }
 }

@@ -10,7 +10,7 @@ const skills = (props) => {
                 <ul>
                     {props.resources.map((val) => <a href = {val[1]} target = "_blank" rel="noopener noreferrer"><li>{val[0]}</li></a>)}
                 </ul>
-                <li className = "titles">Tools</li>
+                {props.tools.length !== 0 ? <li className = "titles">Tools</li> : <li></li>}
                 <ul id = "fields">
                     {props.tools.map((val) => <a  href = {val[1]} target = "_blank" rel="noopener noreferrer"><li>{val[0]}</li></a>)}
                 </ul>
