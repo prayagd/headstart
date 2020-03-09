@@ -3,7 +3,7 @@ import Skills from './skills'
 
 const resources = [["Cryptocurrency course","https://nakamoto.com/introduction-to-cryptocurrency/"]]
 const tools = []
-const people = ["Balaji S. Srinivasan", "Pomp"]
+const people = [["Balaji S. Srinivasan", "https://twitter.com/balajis"], ["Pomp", "https://twitter.com/APompliano"]]
 
 
 const Crypto = () => {

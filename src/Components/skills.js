@@ -16,7 +16,7 @@ const skills = (props) => {
                 </ul>
                 <li className = "titles">People to follow on Twitter</li>
                 <ul>
-                    {props.people.map((val) => <li>{val}</li>)}
+                    {props.people.map((val) => <a  href = {val[1]} target = "_blank" rel="noopener noreferrer"><li>{val[0]}</li></a>)}
                 </ul>
             </ol>
         </div>
